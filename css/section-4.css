@@ -1,7 +1,6 @@
 .section-4 {
     position: relative;
     padding-top: 20vh;
-    padding-bottom: 508px;
     overflow: hidden;
 }
 
@@ -9,9 +8,10 @@
     background-image: url(../img/section4-img.webp);
     background-repeat: no-repeat;
     background-position: center bottom;
+    background-size: 700px;
     display: block;
     width: 100%;
-    height: 871px;
+    height: 700px;
     position: absolute;
     bottom: 0;
 }

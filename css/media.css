@@ -1,3 +1,82 @@
+@media (max-width: 1600px) {
+    .section-1__more {
+        bottom: 15%;
+        left: 44.9%;
+    }
+
+    .container-chart {
+        width: 993px;
+        height: 695px;
+    }
+
+    .section-2__right {
+        padding-left: calc(100% - 1047px);
+    }
+
+    .section-2__item-value {
+        margin-bottom: calc(620px / 2);
+    }
+
+    .section-2__list-value {
+        right: 25px;
+    }
+
+    .section-3__img-2 {
+        width: 640px;
+    }
+
+    .section-3__img-1 {
+        width: 450px;
+    }
+
+    .orange__line {
+        top: -250px;
+    }
+
+    .section-4__bg {
+        background-size: 500px;
+        height: 500px;
+    }
+
+    .section-5 .animation-container {
+        padding-left: calc(100% - 1483px);
+    }
+
+    .section-5__list {
+        top: 55%;
+        left: 6%;
+        width: 92%;
+    }
+
+    .section-6__list-item {
+        width: 92.2%;
+    }
+
+    .section-6__left,
+    .section-6__left-2,
+    .section-6__left-3 {
+        width: 35%;
+    }
+
+    .section-6__right,
+    .section-6__right-2,
+    .section-6__right-3 {
+        width: 65%;
+    }
+
+    .section-6__charts {
+        width: 85%;
+    }
+
+    .list-item-2 .section-6__border-bottom {
+        margin-left: 13.5%;
+    }
+
+    .gray-line {
+        top: -45px;
+    }
+}
+
 @media (max-width: 1440px) {
     .orange__line {
         top: -7%;
@@ -1619,6 +1698,7 @@
 
     .section-6__chart {
         height: 35vh;
+        gap: 4px;
     }
 
     .section-6__border-bottom {
@@ -1649,83 +1729,99 @@
 
     .name-1 {
         left: -83%;
-        top: 60%;
+        top: 70%;
         white-space: nowrap;
     }
 
     .name-2 {
         right: 30%;
-        top: 60%;
+        top: 70%;
         width: 100%;
         white-space: nowrap;
     }
 
     .name-3 {
         left: -62%;
-        top: 65%;
+        top: 77%;
         white-space: nowrap;
     }
 
     .name-4 {
         right: 53%;
-        top: 67%;
+        top: 80%;
         white-space: nowrap;
     }
 
     .name-5 {
         left: -84%;
         white-space: nowrap;
-        top: 60%;
+        top: 70%;
     }
 
     .name-6 {
         right: 28%;
         white-space: nowrap;
-        top: 60%;
+        top: 70%;
     }
 
     .list-item-2 .name-1 {
-        top: 60%;
+        top: 70%;
     }
 
     .list-item-2 .name-2 {
-        top: 60%;
+        top: 70%;
     }
 
     .list-item-2 .name-3 {
-        top: 65%;
+        top: 77%;
+    }
+
+    .list-item-2 .name-4 {
+        top: 80%;
     }
 
     .list-item-2 .name-5 {
-        top: 60%;
+        top: 70%;
+    }
+
+    .list-item-2 .name-6 {
+        top: 70%;
     }
 
     .list-item-3 .name-1 {
-        top: 60%;
+        top: 70%;
     }
 
     .list-item-3 .name-2 {
-        top: 60%;
+        top: 70%;
     }
 
     .list-item-3 .name-3 {
-        top: 65%;
+        top: 77%;
     }
 
     .list-item-3 .name-4 {
-        top: 67%;
+        top: 80%;
     }
 
     .list-item-3 .name-5 {
-        top: 60%;
+        top: 71%;
+    }
+
+    .list-item-3 .name-6 {
+        top: 71%;
     }
 
     .section-6__descr {
         display: none;
     }
+
+    .section-6__content {
+        height: 30vh;
+    }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 431px) {
     body {
         font-size: 16px;
     }
@@ -1938,7 +2034,7 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 391px) {
     .orange__line {
         left: 16%;
     }
@@ -1968,6 +2064,10 @@
 
     .section-2 {
         padding-top: 9vh;
+    }
+
+    .section-2__right {
+        padding-left: 15px;
     }
 
     .container-chart {
@@ -2027,7 +2127,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .orange__line {
         left: 19%;
     }
@@ -2050,7 +2150,7 @@
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 361px) {
     .section-1__title {
         font-size: 84px;
     }
@@ -2109,7 +2209,7 @@
     }
 }
 
-@media (max-width: 345px) {
+@media (max-width: 346px) {
     .orange__line {
         left: 19.5%;
     }
@@ -2119,11 +2219,15 @@
     }
 
     .section-2__list {
-        width: 119%;
+        width: 111%;
     }
 
     .section-2__item {
         padding-left: 20px;
+    }
+
+    .section-2__right {
+        padding-left: 13px;
     }
 
     .section-5 .animation-container {

@@ -23,17 +23,17 @@ const svg = d3.select('#container-chart')
 
 // create a fake data
 const dataset = [
-    { date: new Date('2020-01-01'), value: 263 },
-    { date: new Date('2021-01-01'), value: 550 },
-    { date: new Date('2022-01-01'), value: 775 },
-    { date: new Date('2023-01-01'), value: 860 }
+    { date: new Date('2021-01-01'), value: 263 },
+    { date: new Date('2022-01-01'), value: 610 },
+    { date: new Date('2023-01-01'), value: 860 },
+    { date: new Date('2024-01-01'), value: 915 }
 ]
 
 const dataset2 = [
-    { date: new Date('2020-01-01'), value: 177 },
-    { date: new Date('2021-01-01'), value: 330 },
+    { date: new Date('2021-01-01'), value: 177 },
     { date: new Date('2022-01-01'), value: 375 },
-    { date: new Date('2023-01-01'), value: 426 }
+    { date: new Date('2023-01-01'), value: 426 },
+    { date: new Date('2024-01-01'), value: 441 }
 ]
 
 // Define the x and y domains
@@ -176,7 +176,7 @@ function onEntry(entry) {
                 .attr("stroke", "none")
                 .attr("cx", cx)
                 .attr("cy", cy)
-                .attr("r",4)
+                .attr("r", 4)
                 .style('opacity', 0)
                 .style('z-index', 10)
                 .transition()
